@@ -34,7 +34,7 @@ pipeline
 
     	always
     	{
-    		emailext body: 'Summary', subject: 'Pipeline Status', to: 'ntsamajosy@gmail.com'
+    		emailext body: 'Summary of Jenkins Pipeline', subject: 'Pipeline Status', to: 'ntsamajosy@gmail.com'
     	}
 
     }
